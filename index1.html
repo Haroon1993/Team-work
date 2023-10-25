@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nanum+Gothic'>
+<body>
+    <div class="main">
+        
+    
+    <div class="carousel w-full">
+        <div id="item1" class="carousel-item w-full" >
+            <P class="text"><b>FIND <span style="color: rgb(234, 241, 110)">THE BEST</span> PLACE
+                FOR YOUR HOLIDAYS</b></P>
+                <button class="button"><b>LEARN MORE</b></button>
+          <img src="https://templatemo.com/templates/templatemo_475_holiday/img/banner-3.jpg" class="w-full" />
+        </div> 
+        <div id="item2" class="carousel-item w-full">
+          <img src="https://templatemo.com/templates/templatemo_475_holiday/img/banner-1.jpg" class="w-full" />
+        </div> 
+        <div id="item3" class="carousel-item w-full">
+          <img src="https://templatemo.com/templates/templatemo_475_holiday/img/banner-2.jpg" class="w-full" />
+        </div> 
+        
+      </div> 
+      <div class="flex justify-center w-full py-2 gap-2">
+        <a href="#item1" class="btn btn-xs">1</a> 
+        <a href="#item2" class="btn btn-xs">2</a> 
+        <a href="#item3" class="btn btn-xs">3</a> 
+    </div>
+      </div>
+    </div>
+    <div class="secondmain">
+      <form class="booking-form" action="#" method="post">
+        <div class="elem-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+            <label for="room-selection">Select Room Preference</label>
+            <select id="room-selection" name="room_preference" required>
+          
+        </div>
+        <hr>
+        <div class="elem-group inlined">
+          <label for="adult">Adults</label>
+          <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+        </div>
+        
+        <div class="elem-group inlined">
+          <label for="checkin-date">Check-in Date</label>
+          <input type="date" id="checkin-date" name="checkin" required>
+        </div>
+        <div class="elem-group inlined">
+          <label for="checkout-date">Check-out Date</label>
+          <input type="date" id="checkout-date" name="checkout" required>
+        </div>
+        <div class="elem-group">
+          
+
+   
+          </select>
+        
+        <hr>
+       
+        </div>
+        <button type="submit">Book The Rooms</button>
+      </form>
+
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.3/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
