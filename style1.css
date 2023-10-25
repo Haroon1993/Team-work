@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    height: 150vh;
+    width: 100vw;
+    background-color: rgb(175, 251, 251);
+}
+.main {
+position: relative;
+    height: 30%;
+    width: 100%;
+    
+}
+.text {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 10%;
+    color: black;
+    font-size: 2em;
+    font-style: bold;
+}
+.button{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 25%;
+    background-color: yellow;
+    height: 30px;
+    width: 110px;
+
+}
+.booking-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    height: 400px;
+  }
+  
+  div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    /* float: left ; */
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+  }  
