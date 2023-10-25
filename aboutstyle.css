@@ -5,6 +5,11 @@ box-sizing: border-box;}
 body{height: 100hv;
 width: 100vw;
 position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 }
 
 .navbar{
@@ -55,3 +60,36 @@ position: relative;
     margin-top: 20px;
     
 }
+
+.description{
+    background-color:rgb(222, 242, 248);
+    height: 30%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  
+}
+.descriptionPara h2{
+font-size: 2em;
+}
+
+.descriptionPara h3{
+    font-size: 1.3em;
+}
+
+.descriptionPara p{
+margin-top: 20px;
+}
+
+.breakLine{
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.cardbox{
+    display: flex;
+}
+    
+
