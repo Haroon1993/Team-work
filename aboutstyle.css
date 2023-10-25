@@ -1,0 +1,95 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+body{height: 100hv;
+width: 100vw;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.navbar{
+    background-color: black;
+}
+.flex-1{color: yellow;
+
+}
+
+.flex-1 a{font-size: 1.3em;}
+.flex-none{color: white;}
+.menu li :hover{
+    background-color: yellow;
+}
+
+.imagebox{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1530076886461-ce58ea8abe24?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZyZWUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.imagebox  span{
+    
+    color: yellow;
+    text-transform: uppercase;
+}
+ 
+.imagebox h1{
+    text-transform: uppercase;
+    font-size: 4em;   
+    color: white;
+}
+.imagebox h2{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+}
+.imagebox button{
+    padding: 20px 40px;
+    background-color: yellow;
+    margin-top: 20px;
+    
+}
+
+.description{
+    background-color:rgb(222, 242, 248);
+    height: 30%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  
+}
+.descriptionPara h2{
+font-size: 2em;
+}
+
+.descriptionPara h3{
+    font-size: 1.3em;
+}
+
+.descriptionPara p{
+margin-top: 20px;
+}
+
+.breakLine{
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.cardbox{
+    display: flex;
+}
+    
+
